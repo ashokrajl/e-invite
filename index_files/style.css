@@ -662,7 +662,7 @@ li {
     position: relative;
     background-position: center center !important;
     background-size: cover !important;
-    background: url("../images/retina/general/bg.jpg");
+    background: url("../images/bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #ffffff;
@@ -697,7 +697,7 @@ li {
     margin-top: 80px;
 }
 #Events {
-    background: url('../images/retina/events/event-bg.jpg');
+    background: url('../images/retinbg.jpg');
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -962,7 +962,7 @@ section#timer{
 .timer {
     position: relative;
     height: 205px;
-    background: url('../images/retina/general/timer-bg.jpg');
+    background: url('../images/retinabg.jpg');
     background-attachment: fixed;
     background-origin: initial;
     background-clip: initial;
@@ -1263,7 +1263,7 @@ section#timer{
 
 .blessus {
     position: relative;
-    background: url('../images/retina/bless/bless-bg.jpg');
+    background: url('../images/retibg.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -1666,7 +1666,7 @@ section#timer{
 
 .footer{
     position: relative;
-    background: url("../images/retina/general/bg.jpg");
+    background: url("../images/bg.jpg");
     background-position: center center;
     background-size: cover;
 }
@@ -1912,7 +1912,7 @@ section.page{
 ***/
 
 .section-banner.blog{
-    background-image: url("../images/retina/general/bg.jpg");
+    background-image: url("../images/bg.jpg");
     background-position: center center;
 }
 .inner-banner .banner-content{
