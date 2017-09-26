@@ -512,12 +512,12 @@ li {
     position: relative;    
 }
 .hexagon-in2.groom{
-    background-image: url('../images/retina/couple/groom.jpg');
+    background-image: url('../images/groom.jpg');
     background-position: center;
     background-size: cover;
 }
 .hexagon-in2.bride{
-    background-image: url('../images/retina/couple/bride.jpg');
+    background-image: url('../images/bride.jpg');
     background-position: center;
     background-size: cover;
 }
