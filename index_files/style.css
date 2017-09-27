@@ -901,7 +901,7 @@ li {
 }
 .story-section .met:before {
     content: '';
-    background-image: url('../images/retina/story/meet.png');
+    background-image: url('../images/meet.png');
     height: 32px;
     width: 32px;
     position: absolute;
@@ -913,7 +913,7 @@ li {
 }
 .story-section .propose:before {
     content: '';
-    background-image: url('../images/retina/story/propose.png');
+    background-image: url('../images/propose.png');
     height: 32px;
     width: 32px;
     position: absolute;
@@ -925,7 +925,7 @@ li {
 }
 .story-section .engage:before {
     content: '';
-    background-image: url('../images/retina/story/engage.png');
+    background-image: url('../images/engage.png');
     height: 32px;
     width: 32px;
     position: absolute;
