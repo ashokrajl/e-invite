@@ -697,7 +697,7 @@ li {
     margin-top: 80px;
 }
 #Events {
-    background: url('http://themes.auratechmind.net/wedding/images/retinbg.jpg');
+    background: url('../images/retinbg.jpg');
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
