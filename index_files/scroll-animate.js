@@ -22,11 +22,11 @@ $(document).ready(function() {
                     var animationName = $(this).attr("data-animate");                    
                     if (animationName !== undefined) {
                         /* Chrome & Safari */
-						//$(this).css('-webkit-animation-duration', $(this).attr("data-duration"));
+						$(this).css('-webkit-animation-duration', $(this).attr("data-duration"));
 						/*Mozila*/
-						//$(this).css('-moz-animation-duration', $(this).attr("data-duration"));
+						$(this).css('-moz-animation-duration', $(this).attr("data-duration"));
 						/*Opera*/
-						//$(this).css('-o-animation-duration', $(this).attr("data-duration"));
+						$(this).css('-o-animation-duration', $(this).attr("data-duration"));
 						/* Chrome & Safari */
                                                 $(this).css('-webkit-animation-duration','2s');
 						/*Mozila*/
