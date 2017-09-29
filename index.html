@@ -745,9 +745,13 @@
                         <h3 class="title">Power City <i class="fa fa-arrows-h" aria-hidden="true"></i> Mango City</h3>
                         <p></p>
                         <div class="map-address">
-                            <h5 class="title"><i class="fa fa-map-marker" aria-hidden="true"></i> Neyveli <small>(Reception & Wedding)</small></h5>
+                            <h5 class="title"><i class="fa fa-map-marker" aria-hidden="true"></i> Neyveli <small>(Reception)</small></h5>
                             <p>Community Hall, Block -8, (near Nehru Park),<br> Neyveli Township- 607803</p>
-                        </div><br>
+                        </div>
+                        <div class="map-address">
+                            <h5 class="title"><i class="fa fa-map-marker" aria-hidden="true"></i> Neyveli <small>(Wedding)</small></h5>
+                            <p>Presentation Church, Jawaharlal Nehru Rd, Block -24,<br> Neyveli Township- 607801</p>
+                        </div>
                         <div class="map-address pull-right">
                             <h5 class="title "><i class="fa fa-map-marker" aria-hidden="true"></i> Salem <small>(Reception)</small></h5>
                             <p>Hotel L.R.N. Excellency, Saradha College Road, <br>Hastampatti, Salem - 636007</p>
@@ -935,6 +939,7 @@
 
     function initialize() {
       var uluru = {lat: 11.6155961, lng: 79.51624};
+      var uluru3 = {lat: 11.5993985, lng: 79.5023918};
         var uluru2 = {lat: 11.6765991, lng: 78.1517661};
 
 
@@ -962,6 +967,12 @@
             title:"Neyveli"
        });
 
+         var myMarker3 = new google.maps.Marker(
+        {
+            position: uluru3,
+            map: neyveliMap,
+            title:"Neyveli"
+       });
         var myMarker2 = new google.maps.Marker(
         {
             position: uluru2,
