@@ -234,7 +234,7 @@
                         </div>                        
                         <div class="propose col-md-5 col-sm-5 col-xs-12">
                             <div class="story-content right" data-animate="fadeInRight" data-delay="1s" style="animation-duration: 2s; animation-delay: 1s;">
-                                <span class="story-date">30th April 2016</span>
+                                <span class="story-date">11th June 2017</span>
                                 <h3 class="pull-right">Official <span>Date!</span></h3>
                                 <img src="./index_files/story-2.jpg" alt="Love Proposal" class="img-responsive">
                                 <p>A special kind of understanding and affection developed, as we started to got to know each other in person</p>
@@ -730,7 +730,7 @@
             <div class="container-fluid">
                 <div class="row map-area">
                     <div class="col-sm-4 no-padding">
-                        <div id="neyvelimap">neyvelimap</div>
+                        <div id="neyvelidiv"></div>
                     </div>
                     <div class="col-sm-4">
                         <h3 class="title">Pre Wedding Reception Location</h3>
@@ -746,7 +746,7 @@
                         </div>
                     </div>               
                     <div class="col-sm-4 no-padding">
-                        <div id="salemmap">salemmap</div>
+                        <div id="salemdiv">salemmap</div>
                     </div>
                  
                 </div>
@@ -951,9 +951,9 @@
             mapTypeId: google.maps.MapTypeId.ROADMAP
         }
 
-        neyveliMap = new google.maps.Map(document.getElementById("neyvelimap"), myOptions);
+        neyveliMap = new google.maps.Map(document.getElementById("neyvelidiv"), myOptions);
 
-        salemmap = new google.maps.Map(document.getElementById("salemmap"), myOptions2);
+        salemmap = new google.maps.Map(document.getElementById("salemdiv"), myOptions2);
 
          var myMarker = new google.maps.Marker(
         {
