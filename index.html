@@ -929,9 +929,50 @@
       <script type="text/javascript" charset="UTF-8" src="./index_files/map.js"></script>
       <script type="text/javascript" charset="UTF-8" src="./index_files/util.js"></script>
       <script type="text/javascript" charset="UTF-8" src="./index_files/marker.js"></script>       
-    <script>
-    $('[data-animate]').scrollAnimate();
-</script>
+      <script type="text/javascript">
+           
+    var neyveliMap, salemmap;
+
+    function initialize() {
+      var uluru = {lat: 11.6155961, lng: 79.51624};
+        var uluru2 = {lat: 11.6765991, lng: 78.1517661};
+
+
+        // create the maps
+        var myOptions = {
+            zoom: 14,
+            center: new google.maps.LatLng(11.6155961, 79.51624),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+
+       var myOptions2 = {
+            zoom: 14,
+            center: new google.maps.LatLng(11.6765991, 78.1517661),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+
+        neyveliMap = new google.maps.Map(document.getElementById("neyvelimap"), myOptions);
+
+        salemmap = new google.maps.Map(document.getElementById("salemmap"), myOptions2);
+
+         var myMarker = new google.maps.Marker(
+        {
+            position: uluru,
+            map: neyveliMap,
+            title:"Neyveli"
+       });
+
+        var myMarker2 = new google.maps.Marker(
+        {
+            position: uluru2,
+            map: salemmap,
+            title:"Salem"
+        });
+    }
+       </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRjXxYQtr_pOybMaD8awat7zILJnk4S6Y&callback=initialize">
+    </script> 
 
 
 </body></html>
